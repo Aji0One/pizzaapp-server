@@ -12,7 +12,7 @@
   "engines": {
     "node": "20.x"
   },
-  "author": "Sai Chakri D",
+  "author": "Ajith",
   "license": "ISC",
   "dependencies": {
     "20": "^3.1.9",
