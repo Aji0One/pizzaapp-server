@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "author": "Sai Chakri D",
+  "license": "ISC",
+  "dependencies": {
+    "build": "^0.1.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.4",
+    "nodemon": "^2.0.7",
+    "router": "^1.3.5",
+    "stripe": "^8.222.0",
+    "uuid": "^8.3.2"
+  }
+}
